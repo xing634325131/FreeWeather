@@ -1,6 +1,5 @@
 package com.kingtime.freeweather.utils;
 
-import java.io.InputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,7 @@ public class XMLReader {
 				//System.out.println(parser.getName());
 				if(parser.getName().equals("string")){
 					parser.next();
-					System.out.println(parser.getText());
+					//System.out.println(parser.getText());
 					stringInfos.add(parser.getText());
 				}
 			}

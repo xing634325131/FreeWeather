@@ -858,10 +858,44 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f070023;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int author_text=0x7f070015;
+        public static final int background=0x7f070012;
+        public static final int black=0x7f070004;
+        public static final int blue=0x7f07000a;
+        public static final int common=0x7f070017;
+        /** 亮灰色 
+         */
+        public static final int full_transparent=0x7f070014;
+        public static final int gold=0x7f070007;
+        public static final int gray=0x7f070005;
+        public static final int grayslate=0x7f070010;
+        public static final int graywhite=0x7f07000f;
+        public static final int green=0x7f070009;
+        public static final int lemonyellow=0x7f07000e;
+        public static final int lightblue=0x7f070011;
+        public static final int lightgray=0x7f070013;
+        public static final int listitem_transparent=0x7f070016;
+        public static final int main_back=0x7f07001a;
+        public static final int main_color=0x7f070018;
+        public static final int orange=0x7f07000d;
+        public static final int pink=0x7f07000c;
+        public static final int purple=0x7f07000b;
+        public static final int red=0x7f070006;
+        public static final int sec_color=0x7f070019;
+        public static final int sec_white=0x7f07001d;
+        public static final int suggest_color1=0x7f070020;
+        public static final int suggest_color2=0x7f070021;
+        public static final int suggest_color3=0x7f070022;
+        public static final int suggest_color_bg=0x7f07001f;
+        public static final int trans_sec_color=0x7f07001c;
+        public static final int trd_color=0x7f07001b;
+        public static final int virtual_bg=0x7f07001e;
+        public static final int white=0x7f070003;
+        public static final int yellow=0x7f070008;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1069,6 +1103,9 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
+        public static final int suggest_press_1=0x7f020058;
+        public static final int suggest_press_2=0x7f020059;
+        public static final int suggest_press_3=0x7f02005a;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1086,7 +1123,7 @@ containing a value of this type.
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int checkbox=0x7f05002d;
-        public static final int city_sp=0x7f05003f;
+        public static final int city_sp=0x7f050041;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
@@ -1101,6 +1138,13 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int info_airquality=0x7f050048;
+        public static final int info_desc=0x7f050046;
+        public static final int info_location=0x7f050043;
+        public static final int info_predict=0x7f050044;
+        public static final int info_rays=0x7f050049;
+        public static final int info_temp=0x7f050045;
+        public static final int info_wind=0x7f050047;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
@@ -1110,7 +1154,7 @@ containing a value of this type.
         public static final int prase_btn=0x7f05003d;
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
-        public static final int province_sp=0x7f05003e;
+        public static final int province_sp=0x7f050040;
         public static final int radio=0x7f05002f;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
@@ -1129,11 +1173,32 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int status_tv=0x7f05003c;
         public static final int submit_area=0x7f050039;
+        public static final int suggest_btn=0x7f05003e;
+        public static final int suggest_car=0x7f050053;
+        public static final int suggest_clothes=0x7f05004d;
+        public static final int suggest_cold=0x7f050057;
+        public static final int suggest_comfort=0x7f05005b;
+        public static final int suggest_layout_car=0x7f050052;
+        public static final int suggest_layout_clothes=0x7f05004c;
+        public static final int suggest_layout_cold=0x7f050056;
+        public static final int suggest_layout_comfort=0x7f05005a;
+        public static final int suggest_layout_makeup=0x7f050054;
+        public static final int suggest_layout_rays=0x7f050058;
+        public static final int suggest_layout_sports=0x7f050050;
+        public static final int suggest_layout_sunglass=0x7f05004a;
+        public static final int suggest_layout_tour=0x7f05004e;
+        public static final int suggest_makeup=0x7f050055;
+        public static final int suggest_rays=0x7f050059;
+        public static final int suggest_sports=0x7f050051;
+        public static final int suggest_sunglass=0x7f05004b;
+        public static final int suggest_tour=0x7f05004f;
         public static final int tabMode=0x7f050002;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
+        public static final int weather_btn=0x7f05003f;
+        public static final int weather_info_tv=0x7f050042;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1188,6 +1253,8 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int main=0x7f030018;
         public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int weatherinfo=0x7f03001a;
+        public static final int weathersuggest=0x7f03001b;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1258,7 +1325,6 @@ containing a value of this type.
          */
         public static final int AppBaseTheme=0x7f0b008b;
         /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b008c;
         /**  Mimic text appearance in select_dialog_item.xml 

@@ -3,6 +3,9 @@ package com.kingtime.freeweather.utils;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 
+import android.R.integer;
+import android.text.StaticLayout;
+
 public class StreamTool {
 	
 	public static byte[] read(InputStream inStream) throws Exception {
