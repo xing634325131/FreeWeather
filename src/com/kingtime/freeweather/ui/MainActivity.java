@@ -160,6 +160,7 @@ public class MainActivity extends Activity {
 						SecondActivity.class));
 			}
 			if (v.getId() == R.id.weather_btn) {
+				weatherApplication.dataMap.put("localWeatherInfo", info);
 				startActivity(new Intent(MainActivity.this,
 						WeatherActivity.class));
 			}
